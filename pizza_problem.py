@@ -2,9 +2,6 @@ from enum import Enum
 
 from solution import Solution
 
-default_value = -1
-visited = -2
-
 
 class Result(Enum):
     LEGAL_SLICE = 1
@@ -13,7 +10,6 @@ class Result(Enum):
 
 
 class PizzaQuestion:
-
     calc_answers = {}
 
     def __init__(self, rows, cols, mat, l, h):
