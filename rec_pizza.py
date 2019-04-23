@@ -14,7 +14,7 @@ def read_pizza_from_file(filename):
 
 
 def main():
-    problem = read_pizza_from_file('c_medium.in')
+    problem = read_pizza_from_file('a_example.in')
     print(problem)
     solution = problem.solve()
     print(solution)
